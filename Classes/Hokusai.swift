@@ -248,7 +248,7 @@ final public class Hokusai: UIViewController, UIGestureRecognizerDelegate {
     fileprivate let kElementInterval:CGFloat = 16.0
     fileprivate var kLabelWidth:CGFloat { return kButtonWidth }
     fileprivate let kLabelHeight:CGFloat     = 30.0
-    fileprivate var bgColor                  = UIColor(white: 1.0, alpha: 0.7)
+    fileprivate var bgColor                  = UIColor.black.withAlphaComponent(0.4)
     
     // Variables users can change
     public var colorScheme        = HOKColorScheme.hokusai
